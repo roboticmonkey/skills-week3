@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-Web</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<!-- This page needs a form that can capture data about the user's
+first name, last name, job title, and salary requirements. -->
+<h1>Application Form</h1>
+    <p>Please fill out the following form to apply for a position. </p>
+    <form action="/application" method="POST" >
+        <label for="first-name">First Name:</label>
+            <input id="first-name" type="text" name="first-name"><br> 
+        <label for="last-name"><strong>Last Name:</strong></label>
+            <input id="last-name" type="text" name="last-name"><br>
+        <label for="salary">Salary Requirement:</label> 
+        <input id="salary" type="text" name="salary"><br>
+        <label for="job">Choose Your Job:</label>
+            <select id="job" sname="job">
+                <option  value="software-engineer">Software Engineer</option>
+                <option  value="qa-engineer">QA Engineer</option>
+                <option  value="product-manager">Product Manager</option>
+            </select><br>
+        
+        <label><input type="submit"></label>
+
+    </form>
+
+</body>
+</html>
