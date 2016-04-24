@@ -1,1 +1,15 @@
 /* Your styles can go here. */
+
+p {
+    border: 2px solid black;
+
+}
+
+input {
+    background-color: yellow;
+    
+}
+
+form {
+    line-height: 1.5em;
+}
